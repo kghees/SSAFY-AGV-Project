@@ -1,6 +1,6 @@
 # SSAFY-AGV-Project  
 <br>  
-## SSAFY 11기 AGV(무인 운반 로봇) 프로젝트  
+SSAFY 11기 AGV(무인 운반 로봇) 프로젝트  
 
 
 ## Project Introduce  
@@ -19,20 +19,17 @@
 GUI 원격 제어기로 DB를 통해 command를 보내면, command 를 읽어서 동작을 수행.<br>
 창작 활동으로 다양한 센서를 덧붙여 GUI 원격 제어기에 sensing data 를 보낼 수 있음.<br>
 
-
 ### 2-2) GUI 원격 제어기
-<br>
 GUI 원격 제어기는 Raspberry Pi 5 + Qt 로 만들어진다. 사용자 입력에 따라 인공지능 무인운반차량(AGV)을 원격으로 제어.<br>
 원격 제어기의 가장 중요한 역할은 스스로 통제 불능에 빠지거나 전혀 예상하지 못한 환경에 처한 인공지능 무인운반차량(AGV)을 다시 정상 상태로 복귀 시키는 것.<br>
 추가적으로 GUI 원격 제어기를 통해 인공지능 무인운반차량(AGV)으로부터 다양한 sensing data 와 Camera로 촬영한 화면 영상을 직접 보면서 인공지능 무인운반차량(AGV)의 현 상황을 체크할 수 있는 모니터의 역할도 수행.<br>
 
 
 ### 2-3) Cloud Database
-<br>
 Cloud Database의 역할은 GUI 원격 제어기와 인공지능 무인운반차량(AGV)으로부터 받은 Data를 저장하고, 넘겨주는 역할.<br>
 Firebase 기반의 Cloud Database 를 운영하여 서버리스 방식으로 서버 운영. <br>
 
-### ### 2-4) OpenAI API 를 이용한 로그 데이터 분석
+### 2-4) OpenAI API 를 이용한 로그 데이터 분석
 DB에 쌓이는 데이터를 OpenAI 의 API를 이용해 GPT 모델로 분석을 시킨다. <br>
 분석을 통해 현재 AGV가 어떤 상황에 처해 있는 지를 분석할 수 있으며, 유효하지 않은 데이터<br>를 분석할 수 있다. <br>해당 분석을 통해 사용자에게 추가적인 안내를 할 수도 있다.<br>
 
