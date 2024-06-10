@@ -1,10 +1,10 @@
-# Road_Following
+# Road Detection
 
 아래와 같은 Map이 주어지고 경로를 따라 이동하는 알고리즘, AI 학습 및 모델이 필요하다.
 ![image](https://github.com/kghees/SSAFY-AGV-Project/assets/92205960/d8996427-f392-41f8-ad89-920ae44b7576)
 
 
-Road_Following을 구현하기 위해 AGV에 기본적으로 참조된 코드를 통해 데이터 수집, 학습, 동작을 했다.
+Road Detection을 구현하기 위해 AGV에 기본적으로 참조된 코드를 통해 데이터 수집, 학습, 동작을 했다.
 
 # Data_Collection
  ## 1. 라이브러리 가져오기
